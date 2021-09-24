@@ -1,0 +1,61 @@
+.firstrow {
+    display: flex;
+}   
+.tablenames {
+    width: 100%;
+    text-align: center;
+}
+
+.tablenames, h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.picture1, .picture2 {
+    width: 60%;
+    text-align: center;
+}
+
+.secondrow {
+    display: flex;
+}
+
+.table1, .table2 {
+    width: 40%;
+}
+
+th, td {
+  border: 1px solid white;
+  border-width: thin;
+  width: 28%;
+}
+
+.leftcolumn, .rightcolumn {
+    padding: 10px;
+}
+
+.backgroundfirst {
+    background-color: rgba(43, 43, 146, 0.904);
+    color: rgb(252, 252, 27);
+}
+
+.backgroundsecond {
+    background-color: rgb(243, 243, 45)
+}
+
+.border1 {
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 25px;
+}
+
+.border2 {
+    border-color: blue;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 6px;
+}
